@@ -1,0 +1,8 @@
+GET http://localhost:3000/places?text=rua dom pedro II, alto lage, cariacica, 82
+###
+@originId = ChIJS0hugBg8uAARA3HmtvDdMfQ
+
+@destinarionId = ChIJS_IgCAg8uAARpPVPBU3kjw4
+###
+
+GET http://localhost:3000/directions?originId={{originId}}&destinationId={{destinarionId}}

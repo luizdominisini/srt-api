@@ -1,10 +1,10 @@
 import { Module } from '@nestjs/common';
-import { PrismaModule } from '../prisma/prisma.module';
+import { MapsModule } from '../maps/maps.module';
 import { RoutesController } from './routes.controller';
 import { RoutesService } from './routes.service';
 
 @Module({
-  imports: [PrismaModule],
+  imports: [MapsModule],
   controllers: [RoutesController],
   providers: [RoutesService],
 })
